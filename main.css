@@ -1,0 +1,70 @@
+/*Estilos generales, y para textos usados en todas las paginas*/
+h1 {
+  color: #3096fa;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 3rem;
+}
+
+p {
+  color: black;
+  font-family: 'Roboto',sans-serif;
+  line-height: 1.25;
+  font-size: 2em;
+}
+
+/* indexA pertence a la pagina Index */
+.A p {
+  color: black;
+  font-family: 'Roboto',sans-serif;
+  /*text-align: center;*/
+}
+
+/*topnav   En esta parte se modifica todo lo referente a la barra de navegacion superior*/
+.topnav a {
+  float: left;
+  text-align: center;
+  padding: 20px 30px;
+  text-decoration: none;
+  font-size: 45px;
+  font-family: 'Roboto', sans-serif;
+  color: #9198a0;
+  font-weight: bolder;
+  vertical-align: top;
+}
+
+.topnav a:hover {
+  background-color: #3096fa;
+  color: white;
+}
+
+/*footnav   En esta parte se modifica todo lo referente a la barra de navegacion inferior del Footer*/
+footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #3096fa;
+  height: 150px;
+  float: left;
+  width: 100%;
+}
+
+footer a {
+  text-align: left;
+  padding: 14px 14px;
+  text-decoration: none;
+  font-family: 'Roboto',sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 30px;
+}
+
+/*Tabla parte FEA   En esta parte se modifica todo lo referente a la barra de navegacion superior*/
+
+
+/*Tabla parte Embedded*/
+
+/*About*/
+/*Formulario Contact Us*/
+/*# sourceMappingURL=main.css.map */

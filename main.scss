@@ -1,0 +1,181 @@
+/*Estilos generales, y para textos usados en todas las paginas*/
+
+$celeste:rgb(48, 150, 250);
+$color01:rgb(0,0,0);
+$color02:rgb(145, 152, 160);
+$color03:rgb(255, 255, 255);
+
+
+h1 {
+    color: $celeste;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+}
+
+p {
+    color:$color01;
+    font-family: 'Roboto',sans-serif;
+    line-height: 1.25;
+    font-size: 2em;
+}
+
+
+/* indexA pertence a la pagina Index */
+
+.A {
+    p{
+    color:$color01;
+    font-family: 'Roboto',sans-serif;
+    /*text-align: center;*/
+    }
+}
+
+/*topnav   En esta parte se modifica todo lo referente a la barra de navegacion superior*/
+
+.topnav {
+    a {
+    float:left;
+    text-align: center;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif;
+    color: $color02;
+    font-weight: bolder;
+    vertical-align: top;
+    }
+}
+
+.topnav {
+    a:hover {
+    background-color: $celeste;
+    color: white;
+    }
+}
+
+
+/*footnav   En esta parte se modifica todo lo referente a la barra de navegacion inferior del Footer*/
+
+footer{
+    position: relative;
+    bottom:0;
+    left:0;
+    right: 0;
+    background-color: $celeste;
+    height:150px;
+    float: left;
+    width: 100%;
+}
+
+footer {
+    a{
+    text-align: left;
+    padding: 14px 14px;
+    text-decoration: none;
+    font-family: 'Roboto',sans-serif;
+    font-weight: bold;
+    color: $color03;
+    font-size: 30px;
+    }
+}
+
+/*Tabla parte FEA   En esta parte se modifica todo lo referente a la barra de navegacion superior*/
+
+#grillaFea{    
+    background-color: white;
+    display: grid;
+    grid-template-areas:
+    ". feaGridA1 feaGridA1 ."
+    ". feaGridA2 feaGridA3 ."
+    ". feaGridA4 feaGridA4 .";
+    margin: 10px;
+    padding-left: 100px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 700px 500px 650px;
+    text-align: center;
+    width: 85%;
+}
+/*Tabla parte Embedded*/
+
+
+#grillaEmbedded{              /*GRILLA De Embedded*/           
+    background-color: white;
+    display: grid;
+    grid-template-areas:
+    "pcbDesign01 pcbDesignText"
+    "pcbThermal01 thermalText"
+    "pcbArmado01 armadoText";
+    padding-left: 10%;
+    padding-right: 15%;
+    
+}
+
+.pcbDesign01{
+    grid-area: pcbDesign01;
+    background-color: $celeste;
+    font-family: 'Roboto', sans-serif;
+}
+.pcbDesignText{
+    grid-area: pcbDesignText;
+    background-color: $celeste;
+    font-family: 'Roboto', sans-serif;
+
+}
+#grillaEmbedded {
+    p{
+    font-size: 1.2rem;
+    color: white;
+    font-weight: bolder;
+    margin: 20px;
+    }
+}
+#grillaEmbedded {
+    h3{
+    font-size: 2rem;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    margin: 25px;
+    }
+}
+
+.thermalText{
+    grid-area: thermalText;
+    background-color: $celeste;
+    font-family: 'Roboto', sans-serif;
+}
+.thermalText {
+    p{
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bolder;
+    margin: 20px;
+    }
+}
+.armadoText{
+    grid-area: armadoText;
+    background-color:$celeste;
+    font-family: 'Prompt', sans-serif;
+
+}
+.armadoText {
+    p{
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bolder;
+    margin: 20px;
+    }
+}
+.pcbThermal01{
+    grid-area: pcbThermal01;
+    background-color: $celeste;
+}
+.pcbArmado01{
+    grid-area: pcbArmado01;
+    background-color: $celeste;
+}
+
+/*About*/
+
+/*Formulario Contact Us*/

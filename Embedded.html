@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">  <!--Roboto Black 900-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> <!--Roboto regular 400-->
+    <link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet"> <!--Prompt regular 400-->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/jpscadICO.ico" type="image/x-icon">
+    <title>Embedded</title>
+</head>
+<body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<header>
+        <!--menu parte superior--> 
+    <div class="topnav">
+        <img class="logo" src="images/LogoJPSCAD.jpg">
+        <nav> 
+            <ul>
+                <li><a href="index.html"> Home</a></li>
+                <li><a href="FEA.html"> FEA Services</a></li>
+                <li><a href="Embedded.html"> Embedded Systems</a></li>
+                <li><a href="About.html"> About Us</a></li>
+                <li><a href="Contact.html"> Contact Us</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <!-- Contenido principal-->
+    <h1>JPSCAD Engineering</h1>
+<!--ParteA-->
+<!--ParteA1-->
+</main>
+
+<div class="daqDiv">
+    <div>
+        <h2>Some Custom solutions made to solve Engineering problems</h2>
+        <img src="images/daqsystem.jpg" alt="DAQ System">
+    </div>
+    <div>
+        <p>During the development of a product, one of the most important parameters to know about it are the loads that will ahve to whithstand. Custom data acquisition equipment was designed to solve this problem during the development of the Plexiclick. This custom hardware probed to be highly useful for dynamic loads measurements, vibrations, and allows us to gather useful information to determine the full life cycle of the product</p>
+        <p>All of the above was achieve maintaining a very low cost due to the modularity of the system and its off the shelfs approach to sensors and systems. This DAQ solution probe to be as much as 5 times more economical than the usual laboratory instruments while maintaining acceptable results</p>
+    </div>
+</div>
+
+<h2>Some of the services availables are the following</h2>
+<h2>Fill the prompts, select extra services if needed and Finish the Budget</h2>
+<section class="grillaEmb">
+<div id="grillaEmbedded"> 
+    <div class="pcbDesign01">
+        <img src="images/pcbDesign.jpg" alt="PCB layout">
+    </div>
+    <div class="pcbDesignText" id="pcbDesignText">
+        <h3>PCB Design</h3>
+        <p>Design of complex PCB boards with the use of components of any form factor, from dip to smd. These includes medium size MCU with hundreds of I/O, multi layer designs with or without GND plane. PCB layout designed to accomplish low electrical sound, and high quality voltage source for sensible components</p>
+        <h4>Please complete the following prompts to estimate PCB cost</h4>
+        <p>We offer Type A (up to 15x15cm)</p>
+        <p>We offer Type B (up to 10x10cm)</p>
+        <p>We offer Type C (up to 5x5cm)</p>
+        <div id="addProduct"></div>
+    </div>
+    <div class="pcbThermal01">
+        <img src="images/pcbThermal01.jpg" alt="Thermal PCB01">
+    </div>
+    <div class="thermalText">
+        <h3>Thermal Analysis</h3>
+        <p>Thermal analysis of PCB boards designs with the lastest software. Allows the optimal thermal solution for any product. And allows to check the reliability of any thermal solution, and estimate the thermal requirements of the board or any circuit</p>
+        <h4>Would you like to add this service?</h4>
+        <button  id="addThermalAnalysis" class="btn btn-lg" type="button">Add Thermal Analysis</button>
+        <h3 style="display: none;" id="addTh">Added!</h3>
+        <h3 style="display: none;" id="noAddTh">Removed!</h3>
+    </div>
+
+    <div class="pcbArmado01">
+        <img src="images/pcbArmado.jpg" alt="Armado PCB01">
+    </div>
+    <div class="armadoText">
+        <h3>PCB Board Construction</h3>
+        <p>Construction of any PCB board prototype, from DIP components up to SMD components with the use of stencils and hand layout of any component. The best solution for low quantities of prototypes. Components small as SMD0402</p>
+        <h4>Would you like to add this service?</h4>
+        <button  id="addArmado" type="button">Add Construction Service</button>
+        <h3 style="display: none;" id="addArm">Added!</h3>
+        <h3 style="display: none;" id="noAddArm">Removed!</h3>
+    </div>
+</div>
+</section>
+
+<div id="carrito">
+    <div>
+        <h2>Budget Estimator  <button  id="budget" type="button">Finish Budget</button></h2>
+        <h3 style="display: none;" id="budgetFinish">Budget Finished!</h3>
+    </div>
+
+</div>
+
+<footer>
+    <!-- Pie de Pagina -->
+    <img src="images/LogoJPSCAD.jpg">
+    <nav>
+        <a href="index.html"> Home</a>
+        <a href="FEA.html"> FEA Services</a>
+        <a href="Embedded.html"> Embedded Systems</a>
+        <a href="About.html"> About Us</a>
+        <a href="Contact.html"> Contact Us</a>   
+    </nav>
+    <div>
+        <p>Get our Newsletter</p>
+        <form>   <!--IngresarMail-->
+            <input type="text">
+            <input type="submit" value="Subscribe">
+        </form>
+    </div>
+</footer>
+
+<script src="./js/main.js"></script>
+</body>
+</html>

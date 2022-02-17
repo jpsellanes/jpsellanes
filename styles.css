@@ -1,0 +1,644 @@
+
+/*Estilos generales, y para textos usados en todas las paginas*/
+
+h1 {
+    color:rgb(48, 150, 250);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+}
+
+
+h2{
+    font-family: 'Prompt', sans-serif;
+    text-align: center;
+}
+
+h3{
+    font-family: 'Prompt', sans-serif;
+    text-align: center;
+}
+
+h4{
+    font-family: 'Prompt', sans-serif;
+    text-align: center;
+}
+
+p {
+    color:rgb(0, 0, 0);
+    font-family: 'Roboto',sans-serif;
+    line-height: 1.25;
+    font-size: 2em;
+}
+
+.A img{
+    display: block;
+    margin: auto;
+}
+
+/* indexA pertence a la pagina Index */
+#indexMainContainer{
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    margin-left: 10%;
+}
+
+.asideIndex{
+    float: right;
+}
+
+.indexA{
+    align-content: center;
+    /*float: left;
+    margin: 0 1.5%;
+    width: 50%;*/
+}
+
+.indexB img{
+    padding: 5px;
+    /*margin: 5px auto;*/
+}
+
+.indexB{
+    padding: 10px;
+    align-content: center;
+    text-align: center;
+}
+.indexB img:hover{
+    transform: scale(1.25);
+}
+
+@media only screen and (max-width:766px){
+    .indexB img{
+        width: 128px;
+        height: 128px;
+    }
+}
+
+.A p{
+    color:rgb(0, 0, 0);
+    font-family: 'Roboto',sans-serif;
+    /*text-align: center;*/
+}
+
+.indexA img{
+    padding: 10px; 
+}
+
+.indexA p{
+    font-size: 1.5rem;
+    font-family: 'Roboto',sans-serif;
+}
+.indexA h3{
+    font-size: 2.5rem;
+    font-family: 'Roboto',sans-serif;
+}
+/*topnav   En esta parte se modifica todo lo referente a la barra de navegacion superior*/
+.topnav{
+    width: 100%;
+    height: 100px;
+}
+
+.topnav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.topnav a {
+    float:left;
+    text-align: center;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(145, 152, 160);
+    font-weight: bolder;
+    vertical-align: top;
+}
+
+@media only screen and (max-width:640px){
+    .topnav a{
+        font-size: 10px;
+        padding: 1px 2px;
+    }
+}
+
+@media only screen and (max-width:766px){
+    .topnav a{
+        font-size: 25px;
+        padding: 7px 10px;
+    }
+}
+
+@media only screen and (max-width:1200px){
+    .topnav a{
+        font-size: 30px;
+        padding: 10px 15px;
+    }
+}
+@media only screen and (max-width:1650px){
+    .topnav a{
+        font-size: 40px;
+        padding: 10px 15px;
+    }
+}
+
+.topnav a:hover{
+    background-color: rgb(48, 150, 250);
+    color: white;
+}
+
+.logo{
+    float: left;
+    height: 120px;
+}
+
+/*footnav   En esta parte se modifica todo lo referente a la barra de navegacion inferior del Footer*/
+
+footer{
+    position: relative;
+    bottom:0;
+    left:0;
+    right: 0;
+    background-color: rgb(48, 150, 250);
+    height:150px;
+    float: left;
+    width: 100%;
+}
+
+footer a{
+    text-align: left;
+    padding: 14px 14px;
+    text-decoration: none;
+    font-family: 'Roboto',sans-serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+footer nav{
+    padding: 10px;
+}
+
+footer img{
+    height: 150px;
+    float: left;
+}
+
+@media only screen and (max-width:640px){
+    footer img{
+        width: 120px;
+        height: 80px;
+    }
+}
+
+@media only screen and (max-width:1200px){
+    footer a{
+        font-size: 20px;
+        padding: 5px 5px;
+    }
+}
+@media only screen and (max-width:1650px){
+    footer a{
+        font-size: 25px;
+        padding: 10px 10px;
+    }
+}
+
+/*Tabla parte FEA   En esta parte se modifica todo lo referente a la barra de navegacion superior*/
+.feaA h2{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 10px;
+}
+.feaA img{
+    display: block;
+    margin: auto;
+}
+@media  screen and (max-width:1000px){
+    .feaA img{
+        width: 600px;
+        height: 550px;
+    }
+}
+@media  screen and (max-width:850px){
+    .feaA img{
+        width: 400px;
+        height: 300px;
+    }
+}
+@media  screen and (max-width:766px){
+    .feaA img{
+        width: 300px;
+        height: 250px;
+    }
+}
+@media  screen and (max-width:500px){
+    .feaA img{
+        width: 250px;
+        height: 125px;
+    }
+}
+
+/*@media  screen and (max-width:850px){
+    .feaGridA2 img{
+        display: none;
+    }
+}*/
+
+.gridFeaContenedor{
+    float: left;
+    /*padding-left: 150px;*/
+}
+#grillaFea{    
+    background-color: white;
+    display: grid;
+    grid-template-areas:
+    ". feaGridA1 feaGridA1 ."
+    ". feaGridA2 feaGridA3 ."
+    ". feaGridA4 feaGridA4 .";
+    margin: 10px;
+    padding-left: 100px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 700px 500px 650px;
+    text-align: center;
+    width: 85%;
+}
+
+@media only screen and (max-width:1500px){
+    #grillaFea{    
+        background-color: white;
+        display: grid;
+        grid-template-areas:
+        ". feaGridA1  ."
+        ". feaGridA2  ."
+        ". feaGridA3  ."
+        ". feaGridA4  .";
+        margin: 5px;
+        padding-left: 50px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 700px 500px 400px;
+        text-align: center;
+        width: 90%;
+    }
+}
+
+
+@media  screen and (max-width:850px){
+    #grillaFea{    
+        background-color: white;
+        display: grid;
+        grid-template-areas:
+        ". feaGridA1  ."
+        ". feaGridA2  ."
+        ". feaGridA3  ."
+        ". feaGridA4   .";
+        margin: 5px;
+        padding-left: 10px;
+        padding-right: 0;
+        grid-template-columns: 1fr;
+        grid-template-rows: 450px 400px 400px;
+        text-align: center;
+        width: 90%;
+    }
+    .feaGridA1 img{
+        width: 450;
+        height: 250;
+    }
+    .feaGridA2 img{
+        width: 450;
+        height: 250;
+    }
+    .feaGridA3 img{
+        width: 450;
+        height: 250;
+    }
+    .feaGridA4 img{
+        width: 450;
+        height: 250;
+    }
+}
+@media  screen and (max-width:850px){
+
+    .feaGridA1 img{
+        width: 500;
+        height: 350;
+    }
+    .feaGridA2 img{
+        width: 500;
+        height: 357;
+    }
+    .feaGridA3 img{
+        width: 500;
+        height: 357;
+    }
+    .feaGridA4 img{
+        width: 500;
+        height: 357;
+    }
+}
+
+@media  screen and (max-width:766px) and (min-width:460px){
+
+    .feaGridA1 img{
+        width: 100%;
+    }
+    .feaGridA2 img{
+        width: 100%;
+    }
+    .feaGridA3 img{
+        width: 100%;
+    }
+    .feaGridA4 img{
+        width: 100%;
+    }
+}
+
+
+#grillaFea h2{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 10px;
+}
+
+#grillaFea h3{
+    font-size: 1.75rem;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.feaGridA1{
+    grid-area: feaGridA1;
+
+}
+.feaGridA2{
+    grid-area: feaGridA2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.feaGridA3{
+    grid-area: feaGridA3;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.feaGridA4{
+    grid-area: feaGridA4;
+}
+.feaGridA4 img:hover{
+    transform: scale(1.05);
+}
+
+.tablaFEA table,th,td{
+    font-family: 'Prompt', sans-serif;
+    border:2px solid rgb(48, 150, 250);
+}
+.tablaFEA table{
+    border-collapse: collapse;
+    border:2px solid rgb(48, 150, 250);
+}
+
+.tablaFEA table,th {
+    font-size: 30px;
+    background-color: rgb(48, 150, 250);
+    color:rgb(255, 255, 255);
+}
+.tablaFEA table,p{
+    font-family: 'Prompt', sans-serif;
+    font-size: 20px;
+    color: rgb(6, 15, 20);
+    
+}
+
+/*Tabla parte Embedded*/
+table{
+    border-collapse: collapse;
+}
+.daqDiv{
+    display: block;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 2.5%;
+}
+
+.daqDiv p{
+    font-size: 1.5rem;
+    margin: 20px;
+}
+.daqDiv h2{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 10px;
+}
+
+
+/**********************************GRILLA De Embedded********************************/
+
+#grillaEmbedded{                      
+    background-color: white;
+    display: grid;
+    grid-template-areas:
+    "pcbDesign01 pcbDesignText"
+    "pcbThermal01 thermalText"
+    "pcbArmado01 armadoText";
+    padding-left: 10%;
+    padding-right: 15%;
+    
+}
+
+.pcbDesign01{
+    grid-area: pcbDesign01;
+    background-color: rgb(48, 150, 250);
+    font-family: 'Roboto', sans-serif;
+}
+.pcbDesignText{
+    grid-area: pcbDesignText;
+    background-color: rgb(48, 150, 250);
+    font-family: 'Roboto', sans-serif;
+
+}
+#grillaEmbedded p{
+    font-size: 1.2rem;
+    color: white;
+    font-weight: bolder;
+    margin: 1.5rem;
+}
+#grillaEmbedded h3{
+    font-size: 2rem;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    margin: 1.5rem;
+}
+
+.thermalText{
+    grid-area: thermalText;
+    background-color: rgb(48, 150, 250);
+    font-family: 'Roboto', sans-serif;
+}
+.thermalText p{
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bolder;
+    margin: 1.5rem;/*20px*/
+}
+.armadoText{
+    grid-area: armadoText;
+    background-color:rgb(48, 150, 250);
+    font-family: 'Prompt', sans-serif;
+
+}
+.armadoText p{
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bolder;
+    margin: 1.5rem;
+}
+.pcbThermal01{
+    grid-area: pcbThermal01;
+    background-color: rgb(48, 150, 250);
+}
+.pcbArmado01{
+    grid-area: pcbArmado01;
+    background-color: rgb(48, 150, 250);
+}
+
+@media  screen and (max-width:480px){
+    .A2 img{
+        width: 100%;
+        /*width: 400px;
+        height: 200px;*/
+    }
+    .daqDiv img{
+        width: 100%;
+        /*width: 400px;
+        height: 200px;*/
+
+    }
+    #grillaEmbedded img{
+        width: 100%;
+        /*width: 100px;
+        height: 75px;*/
+    }
+}
+@media  screen and (max-width:766px){
+    .daqDiv img{
+        width: 100%;
+        /*width: 375px;
+        height: 225px;*/
+    }
+    #grillaEmbedded img{
+        width: 100%;
+        /*width: 200px;
+        height: 150px;*/
+    }
+}
+@media  screen and (max-width:850px){
+    .daqDiv img{
+        width: 400px;
+        height: 275px;
+    }
+    .grillaEmb img{
+        width: 200px;
+        height: 150px;
+    }
+}
+@media  screen and (max-width:1000px){
+    .A2 img{
+        width: 600px;
+        height: 400px;
+    }
+    .daqDiv img{
+        width: 500px;
+        height: 350px;
+
+    }
+    #grillaEmbedded img{
+        width: 400px;
+        height: 250px;
+    }
+}
+@media  screen and (max-width:1200px){
+    .daqDiv img{
+        width: 600px;
+        height: 400px;
+    }
+    #grillaEmbedded img{
+        width: 500px;
+        height: 300px;
+    }
+}
+@media  screen and (max-width:1400px){
+    .daqDiv img{
+        width: 750px;
+        height: 500px;
+    }
+}
+/*About*/
+.divAabout{
+    display: float;
+    
+}
+.divA1about{
+    margin: 10px;
+    text-align: center;
+}
+.divA2about{
+    margin-right: 10px;
+}
+
+
+@media  screen and (max-width:766px){
+    .divA1about img{
+        max-width: 350px;
+    }
+}
+
+#igfeed img:hover{
+    transform: scale(1.1);
+}
+
+/*Formulario Contact Us*/
+
+.contenidoContactUs{
+    align-items: center;
+    
+}
+.contact_A {
+    align-content: center;
+    padding: 20px;
+}
+
+.formContactUs{
+    align-content: center;
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif; 
+}
+
+.imgContactUs{
+    display: flex;
+}
+
+.asideContactUs{
+    justify-content: space-evenly;
+    /*float: left;*/
+}
+
+.asideContactUs img{
+    width: 18rem;
+    padding: 0.4rem;
+}
+
+.asideTextContactUs {
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+

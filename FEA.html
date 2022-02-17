@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">  <!--Roboto Black 900-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> <!--Roboto regular 400-->
+    <link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet"> <!--Prompt regular 400-->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/jpscadICO.ico" type="image/x-icon">
+    <title>FEA</title>
+</head>
+<body>
+
+<header>
+        <!--menu parte superior--> 
+    <div class="topnav">
+        <img class="logo" src="images/LogoJPSCAD.jpg">
+        <nav> 
+            <ul>
+                <li><a href="index.html"> Home</a></li>
+                <li><a href="FEA.html"> FEA Services</a></li>
+                <li><a href="Embedded.html"> Embedded Systems</a></li>
+                <li><a href="About.html"> About Us</a></li>
+                <li><a href="Contact.html"> Contact Us</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <!-- Contenido principal-->
+    <h1>JPSCAD Engineering</h1>
+<!--ParteA-->
+<!--ParteA1-->
+    <div class="feaA">
+        <div class="feaA2">
+        <h2>Finite Element Simulations</h2>
+        <img src="images/fea_img_02.png" alt="FEA simulation with mesh visible">
+        </div>
+    </div>  <!--ParteA2 debajo se encuentra la tabla-->
+    <div class="gridFeaContenedor">
+        <section id="grillaFea">
+            <div class="feaGridA1">
+                <h2>Why Computer Simulations? Plexiclick, a case of success!</h2>
+                <img src="images/feasimreal.png" alt="Overlap of FEA with real plate holder">
+            </div>
+            <div class="feaGridA3">
+                <p>One of the biggest challenges while designing a new product, is to ensure its structural integrity during its whole life-cycle. Specially in automotive applications that face the harsh conditions of the enviroment while being undery dynamic loads. For this reason, the best solution instead of building countless and expensive prototypes, is to use the power of computers. </p>
+                <p>With this case, several design improvements were performed. FEM allowed this costumer to decide which plastic material was the best for its product, and with the proposed change in its structural design and improvement of 60% more strength achieved</p>
+            </div>
+            <div class="feaGridA2">
+                <img src="./images/featable.png" alt="Example of results achieved">
+            </div>
+            <div class="feaGridA4">
+                <h3>Would you like to see how does a well designed product looks like? Click the photo below</h3>
+                <a href="https://www.instagram.com/plexiclick/">
+                    <img src="images/plexiclickPhoto01.png" alt="Plexiclick photo showing it">
+                </a>
+            </div> 
+        </section>
+    </div>
+
+    <!--<div class="feaA2">-->
+        <div class="FEAtable">
+        <h2>Some of the services availables are the following</h2>
+        <table class="FEA">
+            <tr><!--Inicio Fila Superior-->
+                <th>Service</th>
+                <th>Detail</th>
+                <th>Advantages</th>
+            </tr> <!--Final Fila Superior-->
+            <tr> <!--Inicio primera Fila-->
+                <td>
+                    <p>Linear Simulations</p>
+                </td>
+                <td>
+                    <p>Simulations under the linear assumption, for Small Displacements Where the relation between Stress-Strain is linear. There is also independence from Load History, and load overlap is possible</p>
+                </td>
+                <td>
+                    <ol>
+                        <li>Fastest Simulation</li>
+                        <li>Requieres less Computational Resources</li>
+                        <li>High quality results for certain materials</li>
+                        <li>Most Economical option</li>
+                        <li>Least chances of Singularities</li>
+                    </ol>
+                </td>
+            </tr> <!--Final primera fila-->
+            <tr>  <!--Inicio segunda fila-->
+                <td>
+                    <p>Non-Linear Simulations</p>
+                </td>
+                <td>
+                    <p>Simulations outside the linear assumption, where the stress-strain relationship stops being linear. Allows plastic and elasto-plastic deformation of the materials, as well as large displacements</p>
+                </td>
+                <td>
+                    <ol>
+                        <li>Allows Non-Linear behavior</li>
+                        <li>Allows working  with a wider range of materials</li>
+                        <li>Best suited for Ultimate Loads</li>
+                        <li>Best and most accurate results</li>
+                        <li>Allows fatigue and damage simulations</li>
+                    </ol>
+                </td>
+            </tr> <!--Final segunda fila-->
+            <tr>  <!--Inicio primera fila-->
+                <td>
+                    <p>Modal Simulations</p>
+                </td>
+                <td>
+                    <p>Modal Simulations allow the study of the frequency response of the system vs a certain load.</p>
+                </td>
+                <td>
+                    <ol>
+                        <li>Calculates the Frequency response of the system</li>
+                        <li>Allows us to estimate the resonance frequency</li>
+                        <li>It is extremely important to understand dynamic systems</li>
+                    </ol>
+                </td>
+            </tr>
+        </table>
+    </div>
+</main>
+
+<footer>
+    <!-- Pie de Pagina -->
+    <img src="images/LogoJPSCAD.jpg">
+    <nav>
+        <a href="index.html"> Home</a>
+        <a href="FEA.html"> FEA Services</a>
+        <a href="Embedded.html"> Embedded Systems</a>
+        <a href="About.html"> About Us</a>
+        <a href="Contact.html"> Contact Us</a>   
+    </nav>
+    <div>
+        <p>Get our Newsletter</p>
+        <form>   <!--IngresarMail-->
+            <input type="text">
+            <input type="submit" value="Subscribe">
+        </form>
+    </div>
+</footer>
+
+
+    
+</body>
+</html>
